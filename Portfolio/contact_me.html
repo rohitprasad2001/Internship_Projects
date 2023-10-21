@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rohit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    >
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="contactform">
+            <h1>Contact me for work/general Enquires</h1>
+            <hr>
+            <form>
+                <div class="mb-3">
+                    <label for="clientname" class="form-label">Name</label>
+                    <input type="name" class="form-control" id="clientname">
+                </div>
+                <div class="mb-3">
+                    <label for="clientemail" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="clientphone" class="form-label">Phone</label>
+                    <input type="Phone" class="form-control" id="clientphone">
+                </div>
+                <div class="mb-3">
+                    <label for="clientenquiry" class="form-label">Enquiry</label>
+                    <input type="name" class="form-control" id="clientenquiry">
+                </div>
+                <div class="mb-3" id="form-check">
+                    <input type="checkbox" class="form-check-input" id="isclient">
+                    <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                </div>
+                <button type="submit" class="submitbtn" onclick="saveFile()">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Rohit's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact_me.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact_me.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact_me.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &/169; rohitsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

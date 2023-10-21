@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+  /*position: fixed;
+    top: 0;
+    width: 100%;
+    */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(157, 157, 219);
+  font-size: 1.02rem;
+}
+
+nav ul li a:active {
+  color: rgb(167, 27, 17);
+  font-size: 1.02rem;
+}
+
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 90px 0;
+  align-items: center;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 3rem;
+}
+
+.leftSection .buttons {
+  padding: 50px 0;
+}
+
+.leftSection .btn {
+  padding: 12px;
+  background-color: rgb(42, 42, 164);
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.leftSection .btn:hover {
+  background-color: white;
+  color: rgb(42, 42, 164);
+}
+
+.rightSection img {
+  width: 80%;
+}
+
+.purple {
+  color: rgb(178, 107, 228);
+}
+
+.text-gray {
+  color: gray;
+}
+
+#element {
+  color: rgb(178, 107, 228);
+}
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+.secondSection h1 {
+  font-size: 1.9rem;
+}
+
+.secondSection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondSection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 100px;
+}
+
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: gray;
+  width: 150px;
+  font-size: 10px;
+}
+
+footer {
+  background-color: #0e0e1a;
+}
+
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer > div {
+  width: 233px;
+}
+
+footer .footer-rights {
+  text-align: center;
+  color: gray;
+  padding: 12px 0;
+}
+
+/*contact*/
+
+.contactform {
+  padding: 50px 150px;
+}
+.contactform h1 {
+  text-align: center;
+}
+
+.contactform form div {
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input {
+  width: 26vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+#emailHelp {
+  font-size: 11px;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+
+#form-check {
+  flex-direction: row;
+}
+#form-check input {
+  width: 24px;
+  margin: 3px 0;
+}
+
+.submitbtn {
+  margin: 10px 0;
+  padding: 5px;
+  background-color: rgb(42, 42, 164);
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 100px;
+}
+.sm {
+  margin: 6px 0;
+  padding: 3px;
+  width: 100px;
+  font-size: 10px;
+}
+.submitbtn:hover {
+  background-color: white;
+  color: rgb(42, 42, 164);
+}
+.blogcontainer h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.blogItem {
+  margin: 20px;
+}
+
+/*about*/
+
+.intro h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+.intro p {
+  margin: 20px;
+}
+
+.skillContainer {
+  padding: 12px;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+}
+.skill {
+  width: 265px;
+  height: 6px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.hundered {
+  width: 265px;
+  background-color: violet;
+}
+.fifty {
+  width: 125px;
+  background-color: aquamarine;
+}
+
+.t5 {
+  width: 75px;
+  background-color: yellow;
+}
+
+.projectItem h2 {
+  margin: 20px;
+}
+.projectItem .sm {
+  margin: 0 15px;
+  padding: 2px 0;
+  width: 70px;
+  height: 18px;
+}
+.aboutmain {
+  margin-bottom: 80px;
+}
